@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "428357893744",
+    "firebase_url": "https://project-2242616374814194626.firebaseio.com",
+    "project_id": "project-2242616374814194626",
+    "storage_bucket": "project-2242616374814194626.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428357893744:android:22d76935dc8bf743",
+        "android_client_info": {
+          "package_name": "com.firebase.androidchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428357893744-958jp02nd0l2lq9lj79kemqaqi0osd7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqwLRkdVMPP4eEDns1JhmLdiUJ9c8YXrg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428357893744:android:f512b9729654e6e1",
+        "android_client_info": {
+          "package_name": "com.example.ben_s.cruisingalongchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428357893744-958jp02nd0l2lq9lj79kemqaqi0osd7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqwLRkdVMPP4eEDns1JhmLdiUJ9c8YXrg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
