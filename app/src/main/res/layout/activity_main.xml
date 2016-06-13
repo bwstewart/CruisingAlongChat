@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/channelButton"
-            android:src="@android:drawable/ic_menu_preferences"/>
+            android:src="@drawable/ic_settings_gear"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -24,7 +24,9 @@
             android:id="@+id/textChannel"
             android:textSize="30sp"
             android:elegantTextHeight="false"
-            android:paddingTop="5dp" />
+            android:paddingTop="5dp"
+            android:textColor="@android:color/white"
+            android:paddingLeft="10dp" />
 
         </LinearLayout>
 
@@ -36,7 +38,7 @@
         android:layout_above="@+id/listFooter"
         android:transcriptMode="alwaysScroll"
         android:layout_below="@+id/banner"
-        android:background="#b7bbec" />
+        android:background="#87cefa" />
 
     <LinearLayout
         android:id="@+id/listFooter"
@@ -49,7 +51,7 @@
             android:id="@+id/menuButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@android:drawable/ic_menu_preferences"/>
+            android:src="@drawable/ic_settings_gear"/>
 
         <EditText
             android:id="@+id/messageInput"

@@ -72,7 +72,7 @@ public class MainActivity extends ListActivity {
                 final AlertDialog.Builder alertBuilder = new AlertDialog.Builder(MainActivity.this);
 
                 alertBuilder.setTitle("Select Channel");
-                alertBuilder.setCancelable(true).setSingleChoiceItems(Channels, -1, new DialogInterface.OnClickListener() {
+                alertBuilder.setCancelable(true).setItems(Channels, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         changeChannel(Channels[which]);
@@ -178,6 +178,8 @@ public class MainActivity extends ListActivity {
         if (mChannel == null) {
             mChannel = "CruiseChat";
             prefs.edit().putString("channel", mChannel).commit();
+            TextView bannerText = (TextView) findViewById(R.id.textChannel);
+            bannerText.setText(mChannel);
         }
 
     }
@@ -193,6 +195,8 @@ public class MainActivity extends ListActivity {
         mChannel = s;
         prefs.edit().putString("channel", mChannel).commit();
         mFirebaseRef = new Firebase(FIREBASE_URL).child(mChannel);
+        TextView bannerText = (TextView) findViewById(R.id.textChannel);
+        bannerText.setText(mChannel);
         onStart();
     }
 
